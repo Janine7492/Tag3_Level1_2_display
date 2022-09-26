@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(54, 51, 51, 0.8);
+    /* opacity: 0.6; Opacity nimmt alle Elemente mit, da hierdurch auch die Schrift durchscheinend wird, hier nicht so geeignet */
+    /* position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+    Wenn man die default margin und padding Werte auf 0 setzt, ist der Rand automatisch weg. Daher keine Fixierung mehr nötig!*/
+}
+
+header nav ul {
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url("../img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
